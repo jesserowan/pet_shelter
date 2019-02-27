@@ -1,0 +1,19 @@
+{
+  "name": "pet_shelter",
+  "version": "1.0.0",
+  "description": "pet shelter app",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"no test\"",
+    "start": "nodemon server/server.js"
+  },
+  "author": "Jesse",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16",
+    "mongoose-unique-validator": "^2.0.2"
+  }
+}
